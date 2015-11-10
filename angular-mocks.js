@@ -1307,8 +1307,8 @@ function createHttpBackendMock($rootScope, $timeout, $delegate, $browser) {
       wasExpected = true;
     }
 
-    var i = -1, definition;
-    while ((definition = definitions[++i])) {
+    var i = definitions.length, definition;
+    while ((definition = definitions[--i])) {
       if (definition.match(method, url, data, headers || {})) {
         if (definition.response) {
           // if $browser specified, we do auto flush all requests
