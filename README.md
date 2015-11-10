@@ -4,6 +4,9 @@ This repo is for distribution on `npm` and `bower`. The source for this module i
 [main AngularJS repo](https://github.com/angular/angular.js/tree/master/src/ngMock).
 Please file issues and pull requests against that repo.
 
+## Modification
+This fork introduces an inversed mocks definition check order. This makes it easier to work with cucumber.js by allowing overwriting of the definitions.
+
 ## Install
 
 You can install this package either with `npm` or with `bower`.
