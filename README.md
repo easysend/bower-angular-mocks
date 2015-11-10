@@ -5,7 +5,7 @@ This repo is for distribution on `npm` and `bower`. The source for this module i
 Please file issues and pull requests against that repo.
 
 ## Modification
-This fork introduces an inversed mocks definition check order. This makes it easier to work with cucumber.js by allowing overwriting of the definitions.
+This fork introduces an inversed mocks definition check order. This makes it easier to work with [cucumber.js](https://github.com/cucumber/cucumber-js) by allowing overwriting of the definitions.
 
 ## Install
 
